@@ -30,6 +30,7 @@ public class JoinListener implements Listener {
         this.updateNametagAndPosition(player);
         this.updateAllNametagsForPlayer(player);
         Profile profile = this.plugin.getProfileManager().getProfile(player);
+        profile.getData().load(player);
         Visibility currentVisibility = profile.getData().getVisibility();
         Bukkit.getScheduler().runTaskLater(this.plugin, () -> {
             if (currentVisibility == Visibility.desativado) {

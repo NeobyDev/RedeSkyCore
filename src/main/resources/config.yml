@@ -1,0 +1,14 @@
+mysql:
+  host: "localhost"
+  port: 3306
+  database: "core"
+  username: "root"
+  password: ""
+
+spawn:
+  world: world
+  x: -10.608
+  y: 62.0
+  z: 27.151
+  yaw: -179.8
+  pitch: -0.4
