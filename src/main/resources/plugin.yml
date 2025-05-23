@@ -1,0 +1,3 @@
+name: SkyCore
+version: '${project.version}'
+main: br.neobydeveloper.com.redeskycore.SkyCore
